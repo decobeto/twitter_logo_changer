@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Logo",
+  "version": "1.0",
+  "description": "An extension that changes the image of the twitter logo",
+  "permissions": ["tabs", "activeTab"],
+  "action": {
+    "default_icon": "bird.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["index.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["twitter_logo.png"],
+      "matches": ["https://*/*"]
+    }
+  ]
+}
