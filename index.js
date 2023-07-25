@@ -28,7 +28,6 @@ function changeLogo() {
     divContainer.setAttribute("class", "css-1dbjc4n r-dnmrzs r-1vvnge1")
     divContainer.style.paddingTop = "20px"
     divContainer.style.paddingBottom = "50px"
-    // divContainer.style.paddingLeft = "30px"
     divContainer.style.width = "40px"
     divContainer.style.height = "40px"
 
