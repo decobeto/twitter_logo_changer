@@ -14,7 +14,7 @@ function changeLogo() {
 
     newImage.setAttribute(
       "class",
-      "r-13v1u17 r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp mama aqui melon musk"
+      "r-13v1u17 r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp"
     )
 
     newImage.src = chrome.runtime.getURL("twitter_logo.png")
